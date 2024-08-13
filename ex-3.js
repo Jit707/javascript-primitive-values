@@ -2,5 +2,6 @@
 
 let totalFileSize = 250000;
 let uploadedSize = 30000;
+let uploadProcess = uploadedSize/totalFileSize*100
+console.log(uploadProcess);
 
-// Start coding here
